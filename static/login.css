@@ -1,0 +1,145 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    background: #cff9f9;
+}
+
+.login_page{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.mau_nen{
+    background: rgba(255, 255, 255, 0.3);
+    min-height:210px;
+    min-width: 480px;
+    padding:20px;
+
+}
+
+.icon_login{
+    position: relative;
+    top: 10px;
+    left: 180px;
+
+}
+
+.icon_login{
+    image-rendering: pixelated;
+    filter: drop-shadow(0 0 5px blue);
+
+    width:130px;
+    height:130px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.position_form{
+    position: relative;
+    top: 30px;
+    left: 100px;
+}
+
+.chat_username{
+    border: 2px solid black;
+    box-shadow: 6px 6px 6px black;
+    font-family: 'Courier', sans-serif;
+    background: white;
+    color: #007f7f;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.chat_text{
+    box-shadow: 6px 6px 6px black;
+    font-family: 'Courier', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #007f7f;
+    width: 250px;
+    height: 30px;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.chat_button{
+    font-weight: 600;
+    box-shadow: 6px 6px 6px black;
+    font-family: 'Courier', sans-serif;
+    font-size: 20px;
+    width: 70px;
+    height: 35px;
+    color: #007f7f;
+    cursor: pointer;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.icon_username{
+    position: relative;
+    top: 75px;
+    left: -90px;
+}
+
+.icon_username{
+   image-rendering: pixelated;
+    filter: drop-shadow(0 0 5px black);
+
+    width:45px;
+    height:45px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.error_mess{
+    position: relative;
+    top: 0px;
+    left: 90px;
+    color:red;
+    font-family: 'Courier', sans-serif;
+    font-size: 20px;
+}
+
+.icon_error{
+    position: relative;
+    top: 50px;
+    left: 38px;
+    image-rendering: pixelated;
+    filter: drop-shadow(0 0 5px black);
+    width:35px;
+    height:35px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.p{
+    font-family: 'Courier', sans-serif;
+    font-size: 20px;
+}
+
+video {
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   z-index: 0;
+ }

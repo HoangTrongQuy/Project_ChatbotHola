@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Login</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='index_admin.css') }}">
+	<img class="login_background" src="{{ url_for('static', filename='images/background_login_3.png') }}" style="image-rendering: pixelated; width:100%;height:100%;">
+</head>
+<body>
+<div class="container" style="margin-left: 50px;">
+	<form method="POST" action="/admin/login_admin" />
+		<img class="login_background_1" src="{{ url_for('static', filename='images/background_login_3.png') }}">
+			<div class="edit_login">
+				<img class="login_img" src="{{ url_for('static', filename='img/login_4.png') }}">
+				<img class="login_icon" src="{{ url_for('static', filename='images/login.png') }}">
+				<img class="login_icon_2" src="{{ url_for('static', filename='images/login.png') }}">
+				<img class="login_icon" src="{{ url_for('static', filename='images/login.png') }}">
+				<img class="login_icon_2" src="{{ url_for('static', filename='images/login.png') }}">
+				<h1 class="Title_1">Login</h1>
+				<input class="login_text" type="text" name="NameRoom" placeholder=" ID RoomName">
+				<input class="login_submit" type="submit" value="Submit">
+				{% if error_message %}
+					<img class="icon_error" src="{{ url_for('static', filename='images/icon_error.png') }}">
+					<p class="error_mess">{{error_message}}</p>
+        		{% endif %}
+				{% if success %}
+					<img class="icon_success" src="{{ url_for('static', filename='img/success.png') }}">
+            		<p class="success">{{ success }}</p>
+        		{% endif %}
+			</div>
+
+	</form>
+</div>
+</body>
+</html>

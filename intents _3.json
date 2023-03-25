@@ -1,0 +1,48 @@
+{"intents": [
+        {"tag": "Lời chào",
+         "patterns": ["Chào", "Một ngày tốt lành", "Xin chào", "Tôi có câu hỏi", "hi", "hey", "Hello", "what's up"],
+         "responses": ["Xin chào", "Tôi có thể giúp gì cho bạn", "Hãy đặt câu hỏi cho tôi"],
+         "context_set": ""
+        },
+        {"tag": "Trọ",
+         "patterns": ["Tôi cần tìm trọ", "Tìm trọ", "Trọ ở khu vực này như nào", "Ở đây còn trọ không",
+           "Khu vực này còn trọ không", "Nơi này trọ có ổn không", "Tình hình nơi ở đây ra sao"],
+         "responses": ["Dưới đây, tôi sẽ đưa ra danh sách các trọ ở khu vựa này:\n\tMinh Anh,\n\tTuấn Cường,\n\tCân Thủy,\n\tKiều Quyên",
+           "Đây là danh sách các trọ mà tôi biết:\n\tMinh Anh,\n\tTuấn Cường,\n\tCân Thủy,\n\tKiều Quyên",
+         "Các trọ dưới đây có thể sẽ phù hợp với bạn:\n\tMinh Anh,\n\tTuấn Cường,\n\tCân Thủy,\n\tKiều Quyên",
+         "Đây là các trọ bạn cần biết:\n\tMinh Anh,\n\tTuấn Cường,\n\tCân Thủy,\n\tKiều Quyên"]
+        },
+        {"tag": "MinhAnh",
+         "patterns": ["Minh Anh", "Trọ Minh Anh", "Trọ Minh Anh thì sao", "Tôi muốn biết thông tin về trọ Minh Anh",
+         "Trọ Minh Anh còn phòng không?", "Trọ Minh Anh có ổn không?", "Giá cả trọ Minh Anh ra sao?"],
+         "responses": ["Đây là thông tin về trọ Minh Anh:\n\tĐịa chỉ cụ thể: Thôn 3, Thạch Hòa, Thạch Thất, Hà Nội.\n\tSố lượng phòng: 20/26.\n\tDiện tích(m2): 21-28.\n\tGiá thành(nghìn vnd): 2.000~3.000."]
+        },
+        {"tag": "TuấnCường",
+         "patterns": ["Tuấn Cường", "Trọ Tuấn Cường", "Trọ Tuấn Cường thì sao", "Tôi muốn biết thông tin về trọ Tuấn Cường",
+         "Trọ Tuấn Cường còn phòng không?", "Trọ Tuấn Cường có ổn không?", "Giá cả trọ Tuấn Cường ra sao?"],
+         "responses": ["Đây là thông tin về trọ Tuấn Cường:\n\tĐịa chỉ cụ thể: Thôn 2, Thạch Hòa, Thạch Thất, Hà Nội.\n\tSố lượng phòng: 24/25.\n\tDiện tích(m2): 21-28.\n\tGiá thành(nghìn vnd): 2.000~3.000."]
+        },
+        {"tag": "CânThủy",
+         "patterns": ["Cân Thủy", "Trọ Cân Thủy", "Trọ Cân Thủy thì sao", "Tôi muốn biết thông tin về trọ Cân Thủy",
+         "Trọ Cân Thủy còn phòng không?", "Trọ Cân Thủy có ổn không?", "Giá cả trọ Cân Thủy ra sao?"],
+         "responses": ["Đây là thông tin về trọ Cân Thủy:\n\tĐịa chỉ cụ thể: Cây xăng 39, Thạch Hòa, Thạch Thất, Hà Nội.\n\tSố lượng phòng: 12/16.\n\tDiện tích(m2): 20-23.\n\tGiá thành(nghìn vnd): 1.800~2.500."]
+        },
+        {"tag": "Kiều Quyên",
+         "patterns": ["Kiều Quyên", "Trọ Kiều Quyên", "Trọ Kiều Quyên thì sao", "Tôi muốn biết thông tin về trọ Kiều Quyên",
+         "Trọ Kiều Quyên còn phòng không?", "Trọ Kiều Quyên có ổn không?", "Giá cả trọ Kiều Quyên ra sao?"],
+         "responses": ["Đây là thông tin về trọ Kiều Quyên:\n\tĐịa chỉ cụ thể: Thôn 3, Thạch Hòa, Thạch Thất, Hà Nội.\n\tSố lượng phòng: 21/21.\n\tDiện tích(m2): 21-28.\n\tGiá thành(nghìn vnd): 2.000~3.000."]
+        },
+        {"tag": "Chủtrọ",
+         "patterns": ["Thông Tin Chủ Trọ", "Chủ Trọ", "Liên lạc với chủ trọ"],
+         "responses": ["Facebook:...............\nEmail:...........\nSố Điện Thoại:........."]
+        },
+        {"tag": "KhôngHiểu",
+         "patterns": [" "],
+         "responses": ["Xin lỗi! Tôi không hiểu bạn nói gì!", "Xin lỗi! Tôi ko hiểu ý của bạn. Bạn muốn tìm trọ nào?", "Câu hỏi của bạn ko nằm trong lĩnh vực của tôi> Vui lòng đưa ra thông tin về trọ mà bạn muốn tím hiểu."]
+        },
+        {"tag": "Chủtrọ",
+         "patterns": ["Thông Tin Chủ Trọ", "Chủ Trọ", "Liên lạc với chủ trọ"],
+         "responses": ["Facebook:...............\nEmail:...........\nSố Điện Thoại:........."]
+        }
+]
+}

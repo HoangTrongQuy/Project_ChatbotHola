@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Edit Tro</title>
+	<link rel="stylesheet" href="{{ url_for('static', filename='edit.css') }}">
+	<video class="video_full" playsinline autoplay muted loop>
+        <source src="https://media.istockphoto.com/id/1414588966/vi/video/g%C3%B5-tr%C3%AAn-m%C3%A1y-%C4%91%C3%A1nh-ch%E1%BB%AF-c%E1%BB%95-%C4%91i%E1%BB%83n-c%C5%A9.mp4?s=mp4-640x640-is&k=20&c=ZwW6S5qoMoxQqh5uKlaBc5kUMdo5__6GmD5FdU-bBsM=">
+    </video>
+</head>
+<body>
+
+	<div class="container form-column">
+		<video class="video_background" playsinline autoplay muted loop>
+        	<source src="https://media.istockphoto.com/id/1414588966/vi/video/g%C3%B5-tr%C3%AAn-m%C3%A1y-%C4%91%C3%A1nh-ch%E1%BB%AF-c%E1%BB%95-%C4%91i%E1%BB%83n-c%C5%A9.mp4?s=mp4-640x640-is&k=20&c=ZwW6S5qoMoxQqh5uKlaBc5kUMdo5__6GmD5FdU-bBsM=">
+    	</video>
+			<h1 class="Title">Edit Tro</h1>
+		<form method="POST" action="{{ url_for('update') }}" onsubmit="return validateForm()" name="myForm">
+			<input type="hidden" name="id" value="{{ tro.id }}">
+			<label class="lable_1">NameBoss:</label>
+			<input class="input_1" type="text" name="NameBoss" value="{{ tro.NameBoss }}" placeholder=" NameBoss"><br><br><br>
+			<label class="lable_2">NameRoom:</label>
+			<input class="input_2" type="text" name="NameRoom" value="{{ tro.NameRoom }}" placeholder=" NameRoom"><br><br><br>
+			<label class="lable_3">Address:</label>
+			<input class="input_3" ype="text" name="Address" value="{{ tro.Address }}" placeholder=" Address"><br><br><br>
+			<label class="lable_4">RoomNum:</label>
+			<input class="input_4" type="text" name="roomNum" value="{{ tro.roomNum }}" placeholder=" roomNum"><br><br><br>
+			<label class="lable_5">Area:</label>
+			<input class="input_5" type="text" name="Area" value="{{ tro.Area }}" placeholder=" Area"><br><br><br>
+			<label class="lable_6">Money:</label>
+			<input class="input_6" type="text" name="Money" value="{{ tro.Money }}" placeholder=" Money"><br><br><br>
+			<label class="lable_7">ElectricityBill:</label>
+			<input class="input_7" type="text" name="ElectricityBill" value="{{ tro.ElectricityBill }}" placeholder=" ElectricityBill"><br><br><br>
+			<label class="lable_8">WaterMoney:</label>
+			<input class="input_8" type="text" name="WaterMoney" value="{{ tro.WaterMoney }}" placeholder=" WaterMoney"><br><br><br>
+			<label class="lable_9">OtherCosts:</label>
+			<input class="input_9" type="text" name="OtherCosts" value="{{ tro.OtherCosts }}" placeholder=" OtherCosts"><br><br><br>
+			<label class="lable_10">Facebook:</label>
+			<input class="input_10" type="text" name="Facebook" value="{{ tro.Facebook }}" placeholder=" Facebook"><br><br><br>
+			<label class="lable_11">Gmail:</label>
+			<input class="input_11" type="text" name="Gmail" value="{{ tro.Gmail }}" placeholder=" Gmail"><br><br><br>
+			<label class="lable_12">SDT:</label>
+			<input class="input_12" type="text" name="SDT" value="{{ tro.SDT }}" placeholder=" SDT"><br><br><br>
+			<input class="submit_edit" type="submit" value="Submit"><br><br><br>
+		</form>
+	</div>
+
+	<script>
+		function validateForm() {
+		  var nameBoss = document.forms["myForm"]["NameBoss"].value;
+		  var nameRoom = document.forms["myForm"]["NameRoom"].value;
+		  var address = document.forms["myForm"]["Address"].value;
+		  var roomNum = document.forms["myForm"]["roomNum"].value;
+		  var area = document.forms["myForm"]["Area"].value;
+		  var money = document.forms["myForm"]["Money"].value;
+		  var electricityBill = document.forms["myForm"]["ElectricityBill"].value;
+		  var waterMoney = document.forms["myForm"]["WaterMoney"].value;
+		  var otherCosts = document.forms["myForm"]["OtherCosts"].value;
+		  var facebook = document.forms["myForm"]["Facebook"].value;
+		  var gmail = document.forms["myForm"]["Gmail"].value;
+		  var sdt = document.forms["myForm"]["SDT"].value;
+
+		if (nameBoss == "None" || nameRoom == "None" || address == "None" || roomNum == "None" || area == "None"
+		   || money == "None" || electricityBill == "None" || waterMoney == "None" || otherCosts == "None" || facebook == "None" || gmail == "None" || sdt == "None") {
+			alert("Please fill in all fields.");
+			return false;
+		}
+
+	}
+</script>
+
+</body>

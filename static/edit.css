@@ -1,0 +1,347 @@
+.container{
+    position: absolute;
+    left: 40%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.form-column label{
+    position: absolute;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.form-column label {
+
+    float: left;
+    clear: left;
+    color: white;
+    font-weight: 600;
+}
+
+.form-column input{
+    position: absolute;
+    left: 10vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.form-column input {
+    float: left;
+    margin-bottom: 20px;
+    font-family: 'Courier', sans-serif;
+    font-weight: 600;
+}
+
+.Title{
+    position: absolute;
+    top: 0vw;
+    left: 0vw;
+    font-color:white;
+
+}
+
+.lable_1{
+    position: absolute;
+    top: 6vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_2{
+    position: absolute;
+    top: 10vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_3{
+    position: absolute;
+    top: 14vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_4{
+    position: absolute;
+    top: 18vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_5{
+    position: absolute;
+    top: 22vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_6{
+    position: absolute;
+    top: 26vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_7{
+    position: absolute;
+    top: 30vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_8{
+    position: absolute;
+    top: 34vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_9{
+    position: absolute;
+    top: 38vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_10{
+    position: absolute;
+    top: 42vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_11{
+    position: absolute;
+    top: 46vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.lable_12{
+    position: absolute;
+    top: 50vw;
+    left: -5vw;
+    font-family: 'Courier', sans-serif;
+    font-size: 1.5vw;
+}
+
+.input_1{
+    position: absolute;
+    top: 6vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_2{
+    position: absolute;
+    top: 10vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_3{
+    position: absolute;
+    top: 14vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_4{
+    position: absolute;
+    top: 18vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_5{
+    position: absolute;
+    top: 22vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_6{
+    position: absolute;
+    top: 26vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_7{
+    position: absolute;
+    top: 30vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_8{
+    position: absolute;
+    top: 34vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_9{
+    position: absolute;
+    top: 38vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_10{
+    position: absolute;
+    top: 42vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_11{
+    position: absolute;
+    top: 46vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.input_12{
+    position: absolute;
+    top: 50vw;
+    left: 10vw;
+    width: 16vw;
+    height: 1.5vw;
+    font-size: 1.5vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.submit_edit{
+    position: absolute;
+    cursor: pointer;
+    top: 54vw;
+    left: 10vw;
+
+}
+
+.submit_edit{
+    position: absolute;
+    width: 10vw;
+    height: 3vw;
+    font-size: 2vw;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    text-align: center;
+      text-decoration: none;
+      outline: none;
+      color: #fff;
+      background-color: #7f7f7f;
+      border: none;
+      border-radius: 15px;
+      box-shadow: 0 10px 0 #4f4c4c;
+      transition: .5s;
+}
+
+.video_full {
+   width: 100vw;
+   height: 100vh;
+   position: fixed;
+   top: 0;
+   left: 0;
+   object-fit: cover;
+   z-index: 0;
+ }
+
+.video_background{
+    position: fixed;
+    width: 40vw;
+   height: 60vw;
+   opacity:0.6;
+   top: 0.5vw;
+   left: -10vw;
+   object-fit: cover;
+   z-index: 0;
+}
